@@ -33,22 +33,27 @@
   </style>
 </head>
 <body>
-  <h1>📺 YouTube Video Sentiment Analysis</h1>
+  <h1>📺 YouTube Videó Hangulatanalízis</h1>
   
   <div class="card">
-    <h2>🎯 Request Analysis for a YouTube Video</h2>
-    <p>To add a YouTube video for sentiment analysis, I need the <strong>Video ID</strong> from the YouTube URL.</p>
+    <h2>🎯 Videó Hozzáadása Elemzéshez</h2>
+    <p>YouTube videó hangulatanalíziséhez szükségem van a YouTube URL-ből a <strong>Videó ID</strong>-ra.</p>
+    <div style="text-align: center; margin: 1rem 0;">
+      <a href="index.html" style="background: #28a745; color: white; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; display: inline-block; font-weight: 500;">
+        📈 Vissza a főoldalra
+      </a>
+    </div>
   </div>
 
   <div class="card example">
-    <h3>📋 How to find the Video ID</h3>
-    <p><strong>From a YouTube URL like this:</strong></p>
+    <h3>📋 Videó ID megkeresése</h3>
+    <p><strong>Ilyen YouTube URL-ből:</strong></p>
     <code>https://www.youtube.com/watch?v=<span class="highlight">aEXR5ZrQQJM</span></code>
-    <p><strong>The Video ID is:</strong> <code>aEXR5ZrQQJM</code></p>
+    <p><strong>A Videó ID:</strong> <code>aEXR5ZrQQJM</code></p>
     
-    <p><strong>Or from a short URL:</strong></p>
+    <p><strong>Vagy rövid URL-ből:</strong></p>
     <code>https://youtu.be/<span class="highlight">aEXR5ZrQQJM</span></code>
-    <p><strong>The Video ID is:</strong> <code>aEXR5ZrQQJM</code></p>
+    <p><strong>A Videó ID:</strong> <code>aEXR5ZrQQJM</code></p>
   </div>
 
   <div class="card steps">
@@ -130,7 +135,7 @@
           <strong>✅ Sikeresen feldolgozva!</strong><br/>
           <strong>Video ID:</strong> <code>${videoId}</code><br/>
           <strong>Állapot:</strong> A videó automatikusan hozzáadásra kerül a rendszerhez!<br/>
-          <strong>Ellenőrzés:</strong> Az eredményeket a <a href="index.html">főoldalon</a> tudod megnézni 2-4 órán belül.<br/>
+          <strong>Ellenőrzés:</strong> Az eredményeket a <a href="index.html">főoldalon</a> tudod megnézni 3-5 percen belül.<br/>
           <small><a href="${githubIssueUrl}" target="_blank" style="color: #0066cc;">📝 Kézi backup (ha szükséges)</a></small>
         </div>
       `;
@@ -158,26 +163,26 @@
   </script>
 
   <div class="card">
-    <h3>📊 What You'll Get</h3>
+    <h3>📊 Mit fogsz kapni</h3>
     <ul>
-      <li><strong>Sentiment Statistics</strong>: Positive, neutral, negative counts</li>
-      <li><strong>Filtered Comments</strong>: Only positive/neutral comments displayed</li>
-      <li><strong>Live Updates</strong>: Fresh analysis every 2 hours</li>
-      <li><strong>Hungarian Language</strong>: Specialized AI for Hungarian sentiment</li>
+      <li><strong>Hangulat statisztikák</strong>: Pozitív, semleges, negatív számok</li>
+      <li><strong>Szűrt kommentek</strong>: Csak pozitív/semleges kommentek megjelenítése</li>
+      <li><strong>Élő frissítések</strong>: Friss elemzés 2 óránként</li>
+      <li><strong>Magyar nyelv</strong>: Speciális AI magyar hangulatelemzéshez</li>
     </ul>
   </div>
 
   <div class="card">
-    <h3>🔗 Quick Links</h3>
+    <h3>🔗 Hasznos linkek</h3>
     <ul>
-      <li><a href="index.html">📈 View Dashboard</a> - See current statistics</li>
-      <li><a href="summary.json">📊 Raw Data (JSON)</a> - For developers</li>
-      <li><a href="allowed.json">💬 Filtered Comments (JSON)</a> - Positive/neutral only</li>
+      <li><a href="index.html">📈 Főoldal megtekintése</a> - Jelenlegi statisztikák</li>
+      <li><a href="summary.json">📊 Nyers adatok (JSON)</a> - Fejlesztőknek</li>
+      <li><a href="allowed.json">💬 Szűrt kommentek (JSON)</a> - Csak pozitív/semleges</li>
     </ul>
   </div>
 
   <div class="card">
-    <p><small><strong>Note:</strong> This system analyzes public YouTube comments for sentiment research. Only positive and neutral comments are displayed to maintain a constructive environment.</small></p>
+    <p><small><strong>Megjegyzés:</strong> Ez a rendszer nyilvános YouTube kommenteket elemez hangulatanalízis céljából. Csak pozitív és semleges kommentek jelennek meg, hogy építő környezetet tartsunk fenn.</small></p>
   </div>
 </body>
 </html>

@@ -332,8 +332,21 @@
       
       if (!data.allowed || data.allowed.length === 0) return;
       
-      // Get unique video IDs
+      // Get unique video IDs from comments data (this ensures all videos with comments are shown)
       const videoIds = [...new Set(data.allowed.map(comment => comment.video_id))];
+      
+      // Sort video IDs to have consistent ordering - newest first if we have summary data
+      if (summaryData && summaryData.videos) {
+        videoIds.sort((a, b) => {
+          const indexA = summaryData.videos.findIndex(v => v.video_id === a);
+          const indexB = summaryData.videos.findIndex(v => v.video_id === b);
+          // Put videos in summary first, others last
+          if (indexA === -1 && indexB === -1) return a.localeCompare(b);
+          if (indexA === -1) return 1;
+          if (indexB === -1) return -1;
+          return indexA - indexB;
+        });
+      }
       
       // Add option for each video
       videoIds.forEach(videoId => {
