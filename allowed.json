@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-10T20:32:50Z",
+  "generated_at": "2025-08-10T20:39:40Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -2580,6 +2580,496 @@
       "like_count": 8,
       "sentiment_label": "LABEL_2",
       "sentiment_score": 0.8222112655639648
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgxTmpjyTHN_K2m0QX54AaABAg",
+      "author": "@BekkerJ",
+      "text": "Belterjes bélpest....folytassátok!!!\nAz eredményen meg majd csodálkoztok....zsenik...",
+      "published_at": "2025-04-04T11:30:03Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.468627005815506
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugxzn_Nk2w7HxFU3kQ54AaABAg",
+      "author": "@BanyaiSamuel",
+      "text": "jo reggelt valmi uj anyagot szivtak",
+      "published_at": "2025-04-04T03:57:35Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8314371705055237
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugzjw81YYdPY7QJcuml4AaABAg",
+      "author": "@vastagcs2",
+      "text": "riporter csaj aranyos :P",
+      "published_at": "2025-04-02T21:45:35Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.757020890712738
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzpgDnXGHSQIfxk1yJ4AaABAg",
+      "author": "@gergelygergely3052",
+      "text": "Irány a w w w . n e m z e t h a n g j a . h u !",
+      "published_at": "2025-04-02T20:53:15Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.6354668736457825
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugx7XXmgPtrph-KsC1B4AaABAg",
+      "author": "@gergelygergely3052",
+      "text": "Gyülekezés alapjog!",
+      "published_at": "2025-04-02T20:52:19Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7660021781921387
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugy4Rjw8YVjoFqG2YUB4AaABAg",
+      "author": "@sont6739",
+      "text": "\"Hogy az Isten faszába menjünk haza?!\" :D :D :D",
+      "published_at": "2025-04-02T16:06:17Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.4134294390678406
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugy4Rjw8YVjoFqG2YUB4AaABAg.AGQKD0jAqsWAGQvs6GUl-R",
+      "author": "@vastagcs2",
+      "text": "gyalog",
+      "published_at": "2025-04-02T21:44:05Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7574516534805298
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugws-cN2J7DzPh-_pzJ4AaABAg",
+      "author": "@miklosmiklos5941",
+      "text": "1:16  nicsak, egy újabb dinó... 👈🤣!",
+      "published_at": "2025-04-02T15:27:00Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7689141631126404
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugw1Uam4lS3kqAVFOFB4AaABAg",
+      "author": "@kacsa-csa6754",
+      "text": "5:46 SZEMETELŐ ! SUNYI!",
+      "published_at": "2025-04-02T13:59:00Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7791228890419006
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugylke5W26snDsVRkVt4AaABAg",
+      "author": "@fradyendre",
+      "text": "Börtönszakács kosztot osztja,\r\nPoloskázott zebralevet,\r\nEz lesz Orbán Viktor kosztja,\r\nS aki magyar, vígan nevet.",
+      "published_at": "2025-04-02T12:38:14Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.5701770782470703
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgxOkK15YEFT7PyxZjJ4AaABAg",
+      "author": "@katalindobo985",
+      "text": "❤ hajrá Momentum! ❤",
+      "published_at": "2025-04-02T12:17:32Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8101722002029419
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgxOkK15YEFT7PyxZjJ4AaABAg.AGPv1agK7JjAGR0_5zSonB",
+      "author": "@TozserA",
+      "text": "😂😂😂😂",
+      "published_at": "2025-04-02T22:33:55Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.6750945448875427
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugw56FA6Jf2oKOFAtl14AaABAg",
+      "author": "@EvaJunior",
+      "text": "Érdekelt volna a legvégén a bácsinak mi volt a válasz a kérdésére.... :D",
+      "published_at": "2025-04-02T11:29:42Z",
+      "like_count": 7,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7016603946685791
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugw56FA6Jf2oKOFAtl14AaABAg.AGPpZBZeDHDAGSQ4Dd5ZZy",
+      "author": "@TSophieTaylor",
+      "text": "Pl. Egy óra az életedből, utána úgy, mint előtte gondoltad. Vagy kerülhetsz az Rákóczi vagy az Árpád híd felé. Ez egész kis ár Isten faszáért. XD Szívesen!",
+      "published_at": "2025-04-03T11:36:00Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.575731098651886
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgyrmANcx7u1vCi5ZZV4AaABAg",
+      "author": "@voda2023",
+      "text": "Hadházy becsületes, feddhetetlen ember. Remélem 26 után fontosabb szerepet kaphat az ország irányításában.",
+      "published_at": "2025-04-02T11:18:24Z",
+      "like_count": 13,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7469126582145691
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgyrmANcx7u1vCi5ZZV4AaABAg.AGPoGTAUpa6AGPowHlv_sc",
+      "author": "@lil-jezus",
+      "text": "Kapni fog persze.\nFő lódoktor lesz. Zebrákat fog herélni.",
+      "published_at": "2025-04-02T11:24:15Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.49651864171028137
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgyrmANcx7u1vCi5ZZV4AaABAg.AGPoGTAUpa6AGPypJJTXlv",
+      "author": "@laszlojozsefmate8433",
+      "text": "@@lil-jezus Meg téged.",
+      "published_at": "2025-04-02T12:50:40Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6960752010345459
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgxV4CVmveZnJ0LqVn94AaABAg",
+      "author": "@IstvanKiss-tf7sc",
+      "text": "8:46 Ez a lényege az egésznek.",
+      "published_at": "2025-04-02T11:12:52Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.763279139995575
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgxPgWHzLRC6M_oKT4d4AaABAg",
+      "author": "@gyongyvernagy2964",
+      "text": "2002-ben ezért a maffiakormányért mentek ki százezren, bravo 👏👏aztán 2006-ban megcsinálták az ál-székházfoglalást.\n15 éve meg pofátlanul zajlik a főváros, földek teljes magánosítása, arab, orosz, kínai kézre juttatása.\nElképesztő, hogy ezek a jogi, közgazdasági egyetemi éveik alatt, milyen forgatókönyvet dolgoztak ki az uradalmuk megvalósítására. \nSzóval magyarok nem elmélet ez a rengeteg \"összeesküvés\".",
+      "published_at": "2025-04-02T10:56:42Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.4152619540691376
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgxvlbeLJr1Z_S36OSt4AaABAg",
+      "author": "@torma993",
+      "text": "👍",
+      "published_at": "2025-04-02T10:19:19Z",
+      "like_count": 3,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7592298984527588
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgyeJMBNaTibVrl-cLB4AaABAg",
+      "author": "@zotyeee82",
+      "text": "6:35 - ezek is má' basznának",
+      "published_at": "2025-04-02T10:10:00Z",
+      "like_count": 3,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7970638275146484
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgxjuxoOevM-2RLA5X54AaABAg",
+      "author": "@jozsefhoffmann8386",
+      "text": "Vicc",
+      "published_at": "2025-04-02T09:07:57Z",
+      "like_count": 3,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8611392378807068
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgyvqIMkVsA-l6hxjRd4AaABAg",
+      "author": "@TeslaElonSpaceXFan",
+      "text": "❤️❤️",
+      "published_at": "2025-04-02T08:01:00Z",
+      "like_count": 8,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7258498072624207
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzVevG9RF2inKyxK2h4AaABAg.AGPPP4cLvq8AGPz8vtI0mZ",
+      "author": "@laszlojozsefmate8433",
+      "text": "Majd 15.-től  él a törvény.",
+      "published_at": "2025-04-02T12:53:29Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6336253881454468
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzVevG9RF2inKyxK2h4AaABAg.AGPPP4cLvq8AGStW4UQ_E8",
+      "author": "@Artemis_806",
+      "text": "@@Lombi736 kíváncsi lennék ha te is meleg lettél volna akkor mi lenne a véleményed...",
+      "published_at": "2025-04-03T16:01:56Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.777917206287384
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzlCGeYJhfutHBlJWF4AaABAg",
+      "author": "@Capybased",
+      "text": "150 fős ratyi party🤣",
+      "published_at": "2025-04-02T07:29:31Z",
+      "like_count": 11,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8542064428329468
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzlCGeYJhfutHBlJWF4AaABAg.AGPP47jl9QGAGPSluO4q-X",
+      "author": "@TeslaElonSpaceXFan",
+      "text": "Szerintem 60-70 ember volt maximum.\nTe mire alapozod a kijelentésedet?",
+      "published_at": "2025-04-02T08:01:51Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8451169729232788
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzlCGeYJhfutHBlJWF4AaABAg.AGPP47jl9QGAGPaEBf9sM9",
+      "author": "@SZL-x5",
+      "text": "@@TeslaElonSpaceXFan Mer ő volt ott, meg még 149 buzi.",
+      "published_at": "2025-04-02T09:15:45Z",
+      "like_count": 2,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7747413516044617
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzlCGeYJhfutHBlJWF4AaABAg.AGPP47jl9QGAGPeMXVTpdG",
+      "author": "@SZL-x5",
+      "text": "@ Ahan",
+      "published_at": "2025-04-02T09:51:51Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8942281007766724
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzlCGeYJhfutHBlJWF4AaABAg.AGPP47jl9QGAGPv14MgPK2",
+      "author": "@TeslaElonSpaceXFan",
+      "text": "@@SZL-x5 Ez jó volt. 🤣🤣",
+      "published_at": "2025-04-02T12:17:28Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8192536234855652
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzE23z4ryvzz5n6k094AaABAg.AGPOhxwx5l9AGPTKL2ZHCn",
+      "author": "@HozeeeArmandooo",
+      "text": "nem kell sajnálni, szép fizut kaphat",
+      "published_at": "2025-04-02T08:06:41Z",
+      "like_count": 9,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.779313325881958
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugx196WkkJbpJogmrM54AaABAg",
+      "author": "@LamanTinTamás",
+      "text": "Néhány 100 tüntető.. 😂 NEM sül ki a szeme.. 🤣",
+      "published_at": "2025-04-02T07:20:01Z",
+      "like_count": 16,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.6813429594039917
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugx196WkkJbpJogmrM54AaABAg.AGPNzZiiTBXAGPz0xvK4RU",
+      "author": "@laszlojozsefmate8433",
+      "text": "🤣🤣🤣🤣",
+      "published_at": "2025-04-02T12:52:24Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7000223994255066
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugx196WkkJbpJogmrM54AaABAg.AGPNzZiiTBXAGSQ8fO12Bm",
+      "author": "@TSophieTaylor",
+      "text": "Néhány százszor száz.",
+      "published_at": "2025-04-03T11:36:36Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7429154515266418
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzMbMA3G97dlOgqvHt4AaABAg",
+      "author": "@HapppySun",
+      "text": "Ha Gyurcsány lenne most.. Szemészeten lenne itt mindenki 😂 Igaz buzibaloldal ?!?",
+      "published_at": "2025-04-02T07:08:56Z",
+      "like_count": 8,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7056567072868347
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzMbMA3G97dlOgqvHt4AaABAg.AGPMiOp1qqlAGPOrTlSi8G",
+      "author": "@ittisjartam8913",
+      "text": "Ha kifogytál az érvekből te is személyeskedésre váltasz?",
+      "published_at": "2025-04-02T07:27:39Z",
+      "like_count": 11,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.5226507186889648
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzMbMA3G97dlOgqvHt4AaABAg.AGPMiOp1qqlAGPPu4yYZbg",
+      "author": "@HapppySun",
+      "text": "@ittisjartam8913  Ebből nem lehet kifogyni !!🤣🤣 Emlékezzünk 2006-ra.",
+      "published_at": "2025-04-02T07:36:45Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8678694367408752
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgzMbMA3G97dlOgqvHt4AaABAg.AGPMiOp1qqlAGPoy-7FkWn",
+      "author": "@cso57rgowww",
+      "text": "​@@HapppySunEmlékezzünk,hogy kirabolták az MNB , .",
+      "published_at": "2025-04-02T11:24:29Z",
+      "like_count": 3,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.4695204496383667
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgwnO2-RQddG7RcuKHF4AaABAg.AGPLueezUHfAGPgiu0usNM",
+      "author": "@HookNail.",
+      "text": "Lehet, hogy nem érti, de Önért is csinálják.",
+      "published_at": "2025-04-02T10:12:30Z",
+      "like_count": 4,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6432375311851501
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgwnO2-RQddG7RcuKHF4AaABAg.AGPLueezUHfAGQ4hZU65n0",
+      "author": "@zoltan5200",
+      "text": "Igazi , fideszes intelligencia vagy 😂",
+      "published_at": "2025-04-02T13:50:47Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.6424484848976135
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgwnO2-RQddG7RcuKHF4AaABAg.AGPLueezUHfAGQ5W7l-SGf",
+      "author": "@godogabor",
+      "text": "@zoltan5200  nagyon szellemes komment👍 Szerintem tekerd magad szivarvanyos zaszlóba es kezd el szedegetni a szemetet Rakosrendezőn. Az olyan neked való feladat. 🙂",
+      "published_at": "2025-04-02T13:57:49Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8835516571998596
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "UgwnO2-RQddG7RcuKHF4AaABAg.AGPLueezUHfAGQ6Ex7Ks2Y",
+      "author": "@zoltan5200",
+      "text": "Kösz , hogy alátámasztottad , a véleményem !",
+      "published_at": "2025-04-02T14:04:13Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8493393659591675
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugyg70hcHDHIK4W8Egp4AaABAg",
+      "author": "@tiborertinger7608",
+      "text": "Munkakerülő csőcselék",
+      "published_at": "2025-04-02T06:50:46Z",
+      "like_count": 13,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6883196830749512
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugyg70hcHDHIK4W8Egp4AaABAg.AGPKdJAnVaiAGPT4MYCm_O",
+      "author": "@HozeeeArmandooo",
+      "text": "és amikor te mész a vezéred tüntetéseire te mi vagy?",
+      "published_at": "2025-04-02T08:04:30Z",
+      "like_count": 14,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8557026386260986
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugyg70hcHDHIK4W8Egp4AaABAg.AGPKdJAnVaiAGPb3gEEWNE",
+      "author": "@JF-lu1xx",
+      "text": "@@HozeeeArmandooo ő Krumplibogár",
+      "published_at": "2025-04-02T09:23:03Z",
+      "like_count": 8,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.6607328653335571
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugwv8msZeAUmGPwMyrp4AaABAg.AGPK_ut6BLhAGPMtnXh2HR",
+      "author": "@tiborertinger7608",
+      "text": "Más meg haza szeretne jutni ti meg az emberekkel szórakoztok gratulálok fejetlenségetekhez",
+      "published_at": "2025-04-02T07:10:30Z",
+      "like_count": 6,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7737253308296204
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugwv8msZeAUmGPwMyrp4AaABAg.AGPK_ut6BLhAGPPsg42DJY",
+      "author": "@ilonakadar8938",
+      "text": "@@ittisjartam8913 Gondolom akkor az a megoldás, ha nem megy haza, aki haza szeretne jutni mondjuk munka után.",
+      "published_at": "2025-04-02T07:36:34Z",
+      "like_count": 2,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8394407033920288
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugwv8msZeAUmGPwMyrp4AaABAg.AGPK_ut6BLhAGPkbfRaiwF",
+      "author": "@arnoldkoszegi1104",
+      "text": "@@ilonakadar8938 ja ja, csak egy db híd van a környéken.",
+      "published_at": "2025-04-02T10:46:29Z",
+      "like_count": 2,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8470985889434814
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "comment_id": "Ugxe0E-PEi1LJ3Ab2Rp4AaABAg",
+      "author": "@tiborertinger7608",
+      "text": "Deviánsok gyülekezete",
+      "published_at": "2025-04-02T06:49:02Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7519934773445129
     }
   ]
 }

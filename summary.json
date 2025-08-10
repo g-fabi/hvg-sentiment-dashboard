@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-10T20:32:50Z",
+  "generated_at": "2025-08-10T20:39:40Z",
   "videos": [
     {
       "video_id": "ICNrHOkX66Y",
@@ -16,6 +16,14 @@
       "pos": 85,
       "neu": 63,
       "neg": 154
+    },
+    {
+      "video_id": "jc4dr5r2Rxs",
+      "title": "Újból megbénult a város, de vajon mit lehet elérni a hídfoglalásokkal?",
+      "total": 76,
+      "pos": 27,
+      "neu": 22,
+      "neg": 27
     }
   ]
 }
