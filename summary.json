@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-10T21:09:49Z",
+  "generated_at": "2025-08-10T21:20:53Z",
   "videos": [
     {
       "video_id": "ICNrHOkX66Y",
@@ -12,10 +12,10 @@
     {
       "video_id": "aEXR5ZrQQJM",
       "title": "Zavar a bulizásban a \"mocskos Fidesz\"? - Riport a Szigetről",
-      "total": 302,
+      "total": 303,
       "pos": 85,
       "neu": 63,
-      "neg": 154
+      "neg": 155
     },
     {
       "video_id": "hXz_JASRVHw",
@@ -32,6 +32,14 @@
       "pos": 27,
       "neu": 22,
       "neg": 27
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "title": "Tojást vitt magával a lelkész, hogy megdobálhassák őt a Balog Zoltán ellen tüntetők",
+      "total": 112,
+      "pos": 13,
+      "neu": 31,
+      "neg": 68
     }
   ]
 }

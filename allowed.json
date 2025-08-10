@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-10T21:09:49Z",
+  "generated_at": "2025-08-10T21:20:53Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -3690,6 +3690,446 @@
       "like_count": 2,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.5902328491210938
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgzDVhO4cnA2YtJBH1R4AaABAg",
+      "author": "@judithajdu8150",
+      "text": "Hányás",
+      "published_at": "2025-06-23T17:20:05Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7549877166748047
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgzaCFcd9mxKyRHbQJx4AaABAg",
+      "author": "@emmaherczeg5734",
+      "text": "Lelkipásztor akar lenni a reflektorfényben. Balog",
+      "published_at": "2025-03-13T15:47:18Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.5789510607719421
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugw78AUqVyivwQOwXW54AaABAg",
+      "author": "@danielveres4351",
+      "text": "A videóban szereplő első úriember Czeglédi Sándor, a KRE tanára. Tanított az egyetemen, respect, hogy kimondja, amit mindenki másnak is ki kéne.",
+      "published_at": "2025-02-01T14:34:32Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.4813021719455719
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgxQw5DUbg4WTN4kos54AaABAg",
+      "author": "@DezsoGabor-bh1sn",
+      "text": "Ha nem derül ki a dolog, akkor még ma is ott lenne és...",
+      "published_at": "2025-02-01T08:43:31Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.5105906128883362
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugw01ITAYf0bEmPhbtZ4AaABAg",
+      "author": "@sandorkovacs4553",
+      "text": "Gyávák és képmutatók. A püspökükkel együtt.",
+      "published_at": "2025-01-31T23:29:38Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7097977995872498
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgzLsIkzPNNMzHRFBXx4AaABAg",
+      "author": "@rolandfarkas8604",
+      "text": "\"Hölgyeim és uraim, itt jól mennek a dolgok!\" 🤣🤣🤣",
+      "published_at": "2025-01-31T10:12:58Z",
+      "like_count": 2,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7899234890937805
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugzox_wc-yiwma8BDa14AaABAg",
+      "author": "@gergototh2012",
+      "text": "megdobaltam volna tojassal",
+      "published_at": "2025-01-31T06:31:58Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7124989628791809
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgxHp2JthFW9qIXCioh4AaABAg",
+      "author": "@hirajem",
+      "text": "A felkészült tüntető honpolgárnak: nem 96 pont, hanem 95 tétel; az a bizonyos templom  Wittenbergben van (ma is, meg lehet nézni) és, ha a 95-ből, akár egyről is tudna érdemben mondani valamit, nem szó szerint, hanem csak úgy saját szavakkal összefoglalni, hogy mit próbált Luther megfogalmazni, akkor esetleg követelhetné 20 betartását; de segítek, nem politikai és erkölcsi tételek ezek , legtöbb hívő, akár evangélikus, akár református nem is nagyon tudja, hogy tartalmilag mit tartalmaznak, ugyanis a 95 tétel teológiai állítások sorozata és annyiban van jelentősége, hogy Luther ezzel  a nyílt színrelépésével indította el a reformációt.",
+      "published_at": "2025-01-30T22:47:02Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.5922888517379761
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgzF7K00LhcEM5Q_h3J4AaABAg",
+      "author": "@MrBoboka13",
+      "text": "Lehet tudni valamit Kónya Endrével kapcsolatban ? Bíróság ?",
+      "published_at": "2025-01-30T20:42:25Z",
+      "like_count": 3,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8338068723678589
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgwePVxT_kWi9sQjlNJ4AaABAg",
+      "author": "@zsk2820",
+      "text": "Lopjunk mint az állat.Ez a lényeg.Ez a pásztor gyerekekkel kereskedett?Há nem baj csak a pénz jöjjön.",
+      "published_at": "2025-01-30T19:38:19Z",
+      "like_count": 9,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.404676616191864
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgxX1B-qc-2qvuhRQLx4AaABAg.ADvzeUZ6qnmAFret1I899Q",
+      "author": "@juliannaszabo1985",
+      "text": "Ez a beszéd!",
+      "published_at": "2025-03-19T19:43:00Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.6121455430984497
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugy5y3HeX9FZZatXuU54AaABAg",
+      "author": "@Csaba-b7e",
+      "text": "Balogot csak a főni tudja      lemondatni  vagy együtt kéz a kézben",
+      "published_at": "2025-01-30T18:50:57Z",
+      "like_count": 5,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.4026830494403839
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgzwvrmP-XeJH1zK5sh4AaABAg",
+      "author": "@magyarallamtulajdonosa",
+      "text": "Megkövezni",
+      "published_at": "2025-01-30T17:54:36Z",
+      "like_count": 7,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8230084180831909
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugwhch8Jr5nsThFU41d4AaABAg",
+      "author": "@sundooor",
+      "text": "'Ha megdobnak kővel, dobj vissza tojással'",
+      "published_at": "2025-01-30T17:32:47Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.4927724301815033
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgxVkh_eqe3ArA8RNRh4AaABAg",
+      "author": "@sandorkovacs7878",
+      "text": "paraziták",
+      "published_at": "2025-01-30T16:37:49Z",
+      "like_count": 21,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7136098146438599
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgzDNwusaJwwg1yoVf14AaABAg",
+      "author": "@oOLurenkillOo",
+      "text": "Felhasználtam volna a tojást.",
+      "published_at": "2025-01-30T16:11:37Z",
+      "like_count": 3,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.4865223169326782
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgwkK0i42kLNY0l1vXt4AaABAg",
+      "author": "@gaborhalter7685",
+      "text": "Balog, lelkeden a bilog👹",
+      "published_at": "2025-01-30T14:28:53Z",
+      "like_count": 9,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6752139925956726
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgyrO1AC8QMDvm7MeCp4AaABAg",
+      "author": "@matef6659",
+      "text": "heti minimum 2 órát szabadítottak fel nekem pár éve, amit már nem a templom falai között töltök. köszönöm nekik",
+      "published_at": "2025-01-30T14:20:20Z",
+      "like_count": 5,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7536327242851257
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgxlsdNzSRPx8euYD5p4AaABAg.ADvKVHETIhwADvfHrl0Dz4",
+      "author": "@hanaippon5217",
+      "text": "IGEN !!!! GYALÁZATOS HAZUG VOLT.",
+      "published_at": "2025-01-30T16:00:42Z",
+      "like_count": 2,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.6184448599815369
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgxuqAHp_Vq8iFHBAWd4AaABAg.ADvHQra2oMOADz3B1q9fuv",
+      "author": "@sandorkovacs4553",
+      "text": "Isten malmai lassan őrölnek. De meg fogja adni a méltó választ!",
+      "published_at": "2025-01-31T23:35:56Z",
+      "like_count": 2,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.47837114334106445
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugx3zh5OoD5peHwM6_B4AaABAg",
+      "author": "@g3_z4_k3k_0_1",
+      "text": "*Engem nem érdekel, ki, mibe és kinek hisz, el is nevezheti a 500. vallásnak, csak otthon a négy fal között csinálja...*",
+      "published_at": "2025-01-30T12:02:52Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.4619547128677368
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugyfr5kfqZLXjdRJOCR4AaABAg",
+      "author": "@tibibara",
+      "text": "Balog még mindig nem mondott le?🤐🤫",
+      "published_at": "2025-01-30T11:35:40Z",
+      "like_count": 39,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7585293054580688
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgzjIl3KkMdXjK2Ewzh4AaABAg",
+      "author": "@Bal.1825",
+      "text": "Református KFT",
+      "published_at": "2025-01-30T11:16:59Z",
+      "like_count": 102,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6497604250907898
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgzjIl3KkMdXjK2Ewzh4AaABAg.ADv9ov4bZFSADw43P_0Vku",
+      "author": "@demagogia-tcg",
+      "text": "Nem hiszem hogy korlátolt felelősségű inkább zártkörű részvénytársaság",
+      "published_at": "2025-01-30T19:45:55Z",
+      "like_count": 3,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8034027218818665
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgzjIl3KkMdXjK2Ewzh4AaABAg.ADv9ov4bZFSADw4Z_3g-xv",
+      "author": "@Bal.1825",
+      "text": "@demagogia-tcg  Nem szeretnek felelősséget vállalni.\nSzerintem találó.",
+      "published_at": "2025-01-30T19:50:18Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.634070098400116
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgxhO1sNjHrD8gtiTNN4AaABAg",
+      "author": "@FhtagnOphelia",
+      "text": "Ivos jatek valahanyszor egy valaszolo azt mondja, hogy 'ez egy nehez/bonyolult kerdes?'",
+      "published_at": "2025-01-30T10:57:07Z",
+      "like_count": 25,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6451343297958374
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgxhO1sNjHrD8gtiTNN4AaABAg.ADv7YQr7GgJADvJvcVYeCC",
+      "author": "@zoltanhriagyel6683",
+      "text": "Comment of the day 🤟",
+      "published_at": "2025-01-30T12:45:17Z",
+      "like_count": 5,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8525299429893494
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgxhO1sNjHrD8gtiTNN4AaABAg.ADv7YQr7GgJADveDXZbOwW",
+      "author": "@krisztianberes8090",
+      "text": "Tisz iz a hárd kvescsön / komplikétid kvescsön 🎉",
+      "published_at": "2025-01-30T15:51:22Z",
+      "like_count": 5,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7952932715415955
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgwGADIiVKxpjDh90KZ4AaABAg",
+      "author": "@gabordeak833",
+      "text": "Orbán , Balogh  reformátusok. mi a kérdés?",
+      "published_at": "2025-01-30T10:44:20Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8012676239013672
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgxECEdi5WhbPtjtRo54AaABAg",
+      "author": "@SkriBass",
+      "text": "Református egyház = n.e.r.",
+      "published_at": "2025-01-30T10:37:45Z",
+      "like_count": 2,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7454890012741089
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugzmlazi2BMYWi0gUgx4AaABAg.ADv3zq_iCZ5ADv4TJV-H94",
+      "author": "@zsoltkovacs1549",
+      "text": "...most jöttek ki a templomból.... Ja és boldog karácsonyt !!!! Valamint helló röfik!!!",
+      "published_at": "2025-01-30T10:30:13Z",
+      "like_count": 23,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8537884950637817
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugzmlazi2BMYWi0gUgx4AaABAg.ADv3zq_iCZ5ADvDqGfdjwd",
+      "author": "@infinitum2884",
+      "text": "Igaz !",
+      "published_at": "2025-01-30T11:52:08Z",
+      "like_count": 8,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7501046657562256
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugzmlazi2BMYWi0gUgx4AaABAg.ADv3zq_iCZ5ADvFtpX_WeL",
+      "author": "@Homelander-ftw",
+      "text": "Mindig is az volt, úgyhogy nincs változás.",
+      "published_at": "2025-01-30T12:10:05Z",
+      "like_count": 8,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7496439218521118
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugzmlazi2BMYWi0gUgx4AaABAg.ADv3zq_iCZ5ADvIXy_Q-aK",
+      "author": "@zoltan5200",
+      "text": "'89 előtt pedig , az mszmp-vel . Ahogy , a katolikus egyhàz is",
+      "published_at": "2025-01-30T12:33:11Z",
+      "like_count": 8,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.735703706741333
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugzmlazi2BMYWi0gUgx4AaABAg.ADv3zq_iCZ5ADvIxZMEHsA",
+      "author": "@zsoltkovacs1549",
+      "text": "@zoltan5200  akkor Fidesz = MSZMP?",
+      "published_at": "2025-01-30T12:36:49Z",
+      "like_count": 8,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.9059763550758362
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugxlfbq37sBJruVzC2l4AaABAg.ADv3t8dFwX0ADv6enefZpk",
+      "author": "@jenodoczy47",
+      "text": "IGY IGAZ!!!!!!!!",
+      "published_at": "2025-01-30T10:49:23Z",
+      "like_count": 9,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.3093239665031433
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugxlfbq37sBJruVzC2l4AaABAg.ADv3t8dFwX0ADyj0ncF1qO",
+      "author": "@Oriza_Triznyák",
+      "text": "Az ilyeneket vetette meg Isten is a legjobban,  ugye a langyosakat kiköpi az Isten.",
+      "published_at": "2025-01-31T20:31:02Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8128119111061096
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgwNlVJTeRezPx71rNF4AaABAg",
+      "author": "@bojka478",
+      "text": "\"Az egyház nem e világból való.\" De a javai azok kellenek ugye? 🤮",
+      "published_at": "2025-01-30T10:24:57Z",
+      "like_count": 76,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.5383608937263489
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgwNlVJTeRezPx71rNF4AaABAg.ADv3rl8Gf1oADvABw2CeNC",
+      "author": "@katalingalbacs4592",
+      "text": "Ember, űrlények rlények építették vatikán pénzéből ingatlanokat,wellneseiket,szállodáikat,suli,ovi,stb.ÉBRESZTŐ",
+      "published_at": "2025-01-30T11:20:16Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6555536389350891
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgwNlVJTeRezPx71rNF4AaABAg.ADv3rl8Gf1oADvg7Llge3a",
+      "author": "@thombaz",
+      "text": "@@bojka478 Nem szerénység kell hanem alázatosság.",
+      "published_at": "2025-01-30T16:08:00Z",
+      "like_count": 5,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6961122751235962
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "UgyDwSdZ2OSax6GDa254AaABAg.ADv3cPEs9VQADydCJVPuMH",
+      "author": "@JozsefKiss-mq5md",
+      "text": "Zsid rák",
+      "published_at": "2025-01-31T19:40:11Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6324406266212463
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugy5vgQIf1JbMvayjhx4AaABAg.ADv1U7cvV92ADv6nmTnevP",
+      "author": "@jenodoczy47",
+      "text": "Miröl beszélsz???",
+      "published_at": "2025-01-30T10:50:37Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8429899215698242
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugy5vgQIf1JbMvayjhx4AaABAg.ADv1U7cvV92ADvBbOVOxDv",
+      "author": "@attilaolah9834",
+      "text": "​@@jenodoczy47 Elmondta a véleményét. Minden amit hallasz csak egy vélemény, nem tény. Azért egyik sem egy Kocsi Csergő Bálint. Ez meg az én véleményem. :)",
+      "published_at": "2025-01-30T11:32:37Z",
+      "like_count": 2,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.418415367603302
+    },
+    {
+      "video_id": "w-GsMptnFRM",
+      "comment_id": "Ugz8zL00q8wGn3zpSU14AaABAg.ADv14eaG_GhADvfRHAq88f",
+      "author": "@8lifeisamovie8",
+      "text": "Ez a legnagyobb vicc, sorra buknak le a ferde fejű papok a gyerekekkel, erre egyre több az egyház által támogatott iskola....szülők szerint meg nincs ezzel semmi baj...🤣",
+      "published_at": "2025-01-30T16:01:59Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.5269999504089355
     }
   ]
 }
