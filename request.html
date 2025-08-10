@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YouTube Video Request - HVG Sentiment</title>
+  <style>
+    body { 
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+      margin: 2rem auto; 
+      max-width: 800px;
+      line-height: 1.6;
+    }
+    h1 { color: #333; margin-bottom: 1rem; }
+    .card { 
+      background: #f8f9fa; 
+      padding: 1.5rem; 
+      border-radius: 8px; 
+      margin: 1rem 0; 
+      border-left: 4px solid #0066cc;
+    }
+    .example { background: #fff3cd; border-left-color: #856404; }
+    .steps { background: #d1ecf1; border-left-color: #0c5460; }
+    code { 
+      background: #f1f3f4; 
+      padding: 2px 6px; 
+      border-radius: 3px; 
+      font-family: monospace;
+    }
+    .highlight { background: #fff3cd; padding: 2px 4px; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>📺 YouTube Video Sentiment Analysis</h1>
+  
+  <div class="card">
+    <h2>🎯 Request Analysis for a YouTube Video</h2>
+    <p>To add a YouTube video for sentiment analysis, I need the <strong>Video ID</strong> from the YouTube URL.</p>
+  </div>
+
+  <div class="card example">
+    <h3>📋 How to find the Video ID</h3>
+    <p><strong>From a YouTube URL like this:</strong></p>
+    <code>https://www.youtube.com/watch?v=<span class="highlight">aEXR5ZrQQJM</span></code>
+    <p><strong>The Video ID is:</strong> <code>aEXR5ZrQQJM</code></p>
+    
+    <p><strong>Or from a short URL:</strong></p>
+    <code>https://youtu.be/<span class="highlight">aEXR5ZrQQJM</span></code>
+    <p><strong>The Video ID is:</strong> <code>aEXR5ZrQQJM</code></p>
+  </div>
+
+  <div class="card steps">
+    <h3>🚀 How to Request Analysis</h3>
+    <ol>
+      <li><strong>Copy the Video ID</strong> from the YouTube URL</li>
+      <li><strong>Send me the Video ID</strong> via your preferred method (email, chat, etc.)</li>
+      <li><strong>I'll add it to the system</strong> within 24 hours</li>
+      <li><strong>Analysis runs automatically</strong> every 2 hours</li>
+      <li><strong>Check results</strong> on the <a href="index.html">main dashboard</a></li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h3>📊 What You'll Get</h3>
+    <ul>
+      <li><strong>Sentiment Statistics</strong>: Positive, neutral, negative counts</li>
+      <li><strong>Filtered Comments</strong>: Only positive/neutral comments displayed</li>
+      <li><strong>Live Updates</strong>: Fresh analysis every 2 hours</li>
+      <li><strong>Hungarian Language</strong>: Specialized AI for Hungarian sentiment</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>🔗 Quick Links</h3>
+    <ul>
+      <li><a href="index.html">📈 View Dashboard</a> - See current statistics</li>
+      <li><a href="summary.json">📊 Raw Data (JSON)</a> - For developers</li>
+      <li><a href="allowed.json">💬 Filtered Comments (JSON)</a> - Positive/neutral only</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <p><small><strong>Note:</strong> This system analyzes public YouTube comments for sentiment research. Only positive and neutral comments are displayed to maintain a constructive environment.</small></p>
+  </div>
+</body>
+</html>

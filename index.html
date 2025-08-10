@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YouTube kommentek hangulata (HU)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 2rem; }
+    h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    table { border-collapse: collapse; width: 100%; max-width: 900px; }
+    th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; }
+    th { background: #f7f7f7; }
+    caption { text-align: left; margin: 0 0 0.5rem; color: #666; }
+    .muted { color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>YouTube kommentek hangulata</h1>
+  <p class="muted" id="generated"></p>
+  <p style="margin-bottom: 1rem;">
+    <a href="request.html" style="background: #0066cc; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none;">
+      📺 Új videó hozzáadása
+    </a>
+    <a href="allowed.json" style="background: #28a745; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; margin-left: 10px;">
+      💬 Szűrt kommentek
+    </a>
+  </p>
+  <table>
+    <caption>Videónkénti összesítés</caption>
+    <thead>
+      <tr>
+        <th>Video ID</th>
+        <th>Összes</th>
+        <th>Pozitív</th>
+        <th>Semleges</th>
+        <th>Negatív</th>
+      </tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <script>
+    async function load() {
+      try {
+        const res = await fetch('summary.json', { cache: 'no-cache' });
+        const data = await res.json();
+        document.getElementById('generated').textContent = `Frissítve: ${data.generated_at}`;
+        const tbody = document.getElementById('rows');
+        tbody.innerHTML = '';
+        for (const v of data.videos || []) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td>${v.video_id}</td><td>${v.total}</td><td>${v.pos}</td><td>${v.neu}</td><td>${v.neg}</td>`;
+          tbody.appendChild(tr);
+        }
+      } catch (e) {
+        document.getElementById('generated').textContent = 'summary.json betöltése sikertelen';
+        console.error(e);
+      }
+    }
+    load();
+  </script>
+</body>
+</html>
+
