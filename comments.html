@@ -193,11 +193,34 @@
       margin: 1rem 0;
     }
     
+    .sort-btn {
+      background: #f8f9fa;
+      border: 2px solid #dee2e6;
+      padding: 8px 16px;
+      margin: 0 4px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
+    }
+    
+    .sort-btn:hover {
+      background: #e9ecef;
+      border-color: #adb5bd;
+    }
+    
+    .sort-btn.active {
+      background: #0066cc;
+      color: white;
+      border-color: #0066cc;
+    }
+    
     @media (max-width: 768px) {
       body { padding: 1rem; }
       h1 { font-size: 2rem; }
       .comment.reply { margin-left: 1rem; }
       .comment-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+      .sort-btn { padding: 6px 12px; font-size: 0.8rem; margin: 2px; }
     }
   </style>
 </head>
@@ -216,10 +239,24 @@
       <div>🔄 Kommentek betöltése...</div>
     </div>
     
+    <div id="sort-controls" style="display: none; background: white; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; text-align: center;">
+      <label style="font-weight: 500; margin-right: 1rem;">Rendezés:</label>
+      <button id="sort-date" class="sort-btn active" onclick="setSortMode('date')">
+        📅 Dátum szerint (újabb először)
+      </button>
+      <button id="sort-likes" class="sort-btn" onclick="setSortMode('likes')">
+        👍 Lájkok szerint (több először)
+      </button>
+    </div>
+    
     <div id="content"></div>
   </div>
 
   <script>
+    let currentCommentsData = null;
+    let currentSummaryData = null;
+    let currentSortMode = 'date';
+    
     async function loadComments() {
       try {
         // Load both comments and summary data in parallel
@@ -230,14 +267,15 @@
         
         if (!commentsResponse.ok) throw new Error('Nem sikerült betölteni a kommenteket');
         
-        const commentsData = await commentsResponse.json();
-        let summaryData = null;
+        currentCommentsData = await commentsResponse.json();
+        currentSummaryData = null;
         
         if (summaryResponse && summaryResponse.ok) {
-          summaryData = await summaryResponse.json();
+          currentSummaryData = await summaryResponse.json();
         }
         
-        await displayComments(commentsData, summaryData);
+        await displayComments(currentCommentsData, currentSummaryData);
+        document.getElementById('sort-controls').style.display = 'block';
       } catch (error) {
         document.getElementById('content').innerHTML = `
           <div class="error">
@@ -246,6 +284,19 @@
         `;
       } finally {
         document.getElementById('loading').style.display = 'none';
+      }
+    }
+    
+    function setSortMode(mode) {
+      currentSortMode = mode;
+      
+      // Update button states
+      document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+      document.getElementById('sort-' + mode).classList.add('active');
+      
+      // Re-render with new sort
+      if (currentCommentsData) {
+        displayComments(currentCommentsData, currentSummaryData);
       }
     }
     
@@ -269,8 +320,8 @@
       let html = '';
       
       Object.entries(videoGroups).forEach(([videoId, comments]) => {
-        // Sort comments by date (newest first), but keep replies grouped with parents
-        const threadedComments = buildCommentTree(comments);
+        // Build hierarchical comment tree and sort according to current mode
+        const threadedComments = buildCommentTree(comments, currentSortMode);
         const positiveCount = comments.filter(c => getSentimentType(c.sentiment_label) === 'positive').length;
         const neutralCount = comments.filter(c => getSentimentType(c.sentiment_label) === 'neutral').length;
         
@@ -295,7 +346,7 @@
               </div>
             </div>
             <div class="comments-container">
-              ${threadedComments.map(comment => renderComment(comment)).join('')}
+              ${threadedComments.map(comment => renderCommentWithReplies(comment)).join('')}
             </div>
           </div>
         `;
@@ -304,20 +355,78 @@
       content.innerHTML = html;
     }
     
-    function buildCommentTree(comments) {
-      // For now, just sort by date since we don't have parent-child relationship data
-      // In the future, we could enhance this with reply threading
-      return comments.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+    function buildCommentTree(comments, sortMode = 'date') {
+      // Separate top-level comments from replies by analyzing author patterns and content
+      const topLevelComments = [];
+      const potentialReplies = [];
+      
+      // Simple heuristic: comments that start with @username are likely replies
+      comments.forEach(comment => {
+        if (comment.text.match(/^@[\w.-]+/)) {
+          potentialReplies.push(comment);
+        } else {
+          topLevelComments.push(comment);
+        }
+      });
+      
+      // Sort top-level comments
+      if (sortMode === 'likes') {
+        topLevelComments.sort((a, b) => (b.like_count || 0) - (a.like_count || 0));
+      } else {
+        topLevelComments.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+      }
+      
+      // For each top-level comment, find and attach potential replies
+      topLevelComments.forEach(parent => {
+        parent.replies = [];
+        
+        // Find replies that might belong to this parent
+        const parentAuthor = parent.author.replace('@', '');
+        
+        potentialReplies.forEach(reply => {
+          // Check if reply mentions this parent's author or was posted shortly after
+          const mentionMatch = reply.text.match(/^@([\w.-]+)/);
+          if (mentionMatch) {
+            const mentionedAuthor = mentionMatch[1];
+            if (mentionedAuthor === parentAuthor || 
+                parentAuthor.includes(mentionedAuthor) || 
+                mentionedAuthor.includes(parentAuthor)) {
+              parent.replies.push(reply);
+            }
+          }
+        });
+        
+        // Sort replies within each parent
+        if (sortMode === 'likes') {
+          parent.replies.sort((a, b) => (b.like_count || 0) - (a.like_count || 0));
+        } else {
+          parent.replies.sort((a, b) => new Date(a.published_at) - new Date(b.published_at)); // replies chronological
+        }
+      });
+      
+      // Add any unmatched replies as top-level comments
+      const matchedReplyIds = new Set();
+      topLevelComments.forEach(parent => {
+        parent.replies.forEach(reply => matchedReplyIds.add(reply.comment_id));
+      });
+      
+      potentialReplies.forEach(reply => {
+        if (!matchedReplyIds.has(reply.comment_id)) {
+          topLevelComments.push(reply);
+        }
+      });
+      
+      return topLevelComments;
     }
     
-    function renderComment(comment) {
+    function renderComment(comment, isReply = false) {
       const sentimentType = getSentimentType(comment.sentiment_label);
       const sentimentText = getSentimentText(sentimentType);
       const formattedDate = formatDate(comment.published_at);
       const score = Math.round(comment.sentiment_score * 100);
       
       return `
-        <div class="comment ${sentimentType}">
+        <div class="comment ${sentimentType} ${isReply ? 'reply' : ''}">
           <div class="comment-header">
             <span class="author">${escapeHtml(comment.author)}</span>
             <div class="comment-meta">
@@ -335,6 +444,19 @@
           </div>
         </div>
       `;
+    }
+    
+    function renderCommentWithReplies(comment) {
+      let html = renderComment(comment, false);
+      
+      // Add replies if they exist
+      if (comment.replies && comment.replies.length > 0) {
+        comment.replies.forEach(reply => {
+          html += renderComment(reply, true);
+        });
+      }
+      
+      return html;
     }
     
     function getSentimentType(label) {

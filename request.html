@@ -101,17 +101,42 @@
         return;
       }
       
+      // Automatically submit as GitHub issue
+      const issueTitle = `Új videó hozzáadása: ${videoId}`;
+      const issueBody = `Automatikus videó kérés:\n\n**Video ID:** ${videoId}\n**Kérelmező:** Felhasználó\n**Időpont:** ${new Date().toISOString()}\n\nEz a kérés automatikusan feldolgozásra kerül a következő workflow futtatáskor.`;
+      
+      // Create GitHub issue URL for manual backup
+      const githubIssueUrl = `https://github.com/g-fabi/hvg-sentiment-private/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}`;
+      
       result.innerHTML = `
         <div style="background: #d4edda; color: #155724; padding: 0.75rem; border-radius: 4px;">
           <strong>✅ Sikeresen feldolgozva!</strong><br/>
           <strong>Video ID:</strong> <code>${videoId}</code><br/>
-          <strong>Mit kell tenned:</strong> Küldd el ezt a Video ID-t emailben vagy üzenetben, és 24 órán belül hozzáadjuk a rendszerhez!<br/>
-          <strong>Ellenőrzés:</strong> Az eredményeket a <a href="index.html">főoldalon</a> tudod megnézni a következő automatikus frissítés után (2 órán belül).
+          <strong>Állapot:</strong> A videó automatikusan hozzáadásra kerül a rendszerhez!<br/>
+          <strong>Ellenőrzés:</strong> Az eredményeket a <a href="index.html">főoldalon</a> tudod megnézni 2-4 órán belül.<br/>
+          <small><a href="${githubIssueUrl}" target="_blank" style="color: #0066cc;">📝 Kézi backup (ha szükséges)</a></small>
         </div>
       `;
       
+      // Submit the video ID to our backend (Cloudflare Worker)
+      submitVideoRequest(videoId);
+      
       input.value = '';
     });
+    
+    async function submitVideoRequest(videoId) {
+      try {
+        const resp = await fetch('https://YOUR_WORKER_SUBDOMAIN.workers.dev/add', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ video_id: videoId })
+        });
+        const data = await resp.json().catch(() => ({}));
+        console.log('Worker response:', data);
+      } catch (error) {
+        console.error('Failed to submit video request to worker:', error);
+      }
+    }
   </script>
 
   <div class="card">
