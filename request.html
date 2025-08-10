@@ -52,15 +52,67 @@
   </div>
 
   <div class="card steps">
-    <h3>🚀 How to Request Analysis</h3>
-    <ol>
-      <li><strong>Copy the Video ID</strong> from the YouTube URL</li>
-      <li><strong>Send me the Video ID</strong> via your preferred method (email, chat, etc.)</li>
-      <li><strong>I'll add it to the system</strong> within 24 hours</li>
-      <li><strong>Analysis runs automatically</strong> every 2 hours</li>
-      <li><strong>Check results</strong> on the <a href="index.html">main dashboard</a></li>
-    </ol>
+    <h3>🚀 Video hozzáadása</h3>
+    <form id="videoForm" style="margin: 1rem 0;">
+      <div style="margin-bottom: 1rem;">
+        <label for="videoUrl" style="display: block; font-weight: bold; margin-bottom: 0.5rem;">YouTube Video URL vagy Video ID:</label>
+        <input 
+          type="text" 
+          id="videoUrl" 
+          placeholder="https://www.youtube.com/watch?v=aEXR5ZrQQJM vagy aEXR5ZrQQJM"
+          style="width: 100%; padding: 0.75rem; border: 2px solid #ddd; border-radius: 4px; font-size: 1rem;"
+        />
+      </div>
+      <button 
+        type="submit" 
+        style="background: #0066cc; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer;"
+      >
+        📺 Video hozzáadása
+      </button>
+    </form>
+    <div id="result" style="margin-top: 1rem;"></div>
   </div>
+
+  <script>
+    document.getElementById('videoForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const input = document.getElementById('videoUrl');
+      const result = document.getElementById('result');
+      const value = input.value.trim();
+      
+      if (!value) {
+        result.innerHTML = '<div style="background: #f8d7da; color: #721c24; padding: 0.75rem; border-radius: 4px;">Kérlek add meg a YouTube URL-t vagy Video ID-t!</div>';
+        return;
+      }
+      
+      // Extract video ID from various YouTube URL formats
+      let videoId = '';
+      if (value.includes('youtube.com/watch?v=')) {
+        videoId = value.split('watch?v=')[1].split('&')[0];
+      } else if (value.includes('youtu.be/')) {
+        videoId = value.split('youtu.be/')[1].split('?')[0];
+      } else if (value.match(/^[a-zA-Z0-9_-]{11}$/)) {
+        videoId = value;
+      }
+      
+      if (!videoId || videoId.length !== 11) {
+        result.innerHTML = '<div style="background: #f8d7da; color: #721c24; padding: 0.75rem; border-radius: 4px;">Érvénytelen YouTube URL vagy Video ID! Példa: aEXR5ZrQQJM</div>';
+        return;
+      }
+      
+      result.innerHTML = `
+        <div style="background: #d4edda; color: #155724; padding: 0.75rem; border-radius: 4px;">
+          <strong>✅ Sikeresen feldolgozva!</strong><br/>
+          <strong>Video ID:</strong> <code>${videoId}</code><br/>
+          <strong>Mit kell tenned:</strong> Küldd el ezt a Video ID-t emailben vagy üzenetben, és 24 órán belül hozzáadjuk a rendszerhez!<br/>
+          <strong>Ellenőrzés:</strong> Az eredményeket a <a href="index.html">főoldalon</a> tudod megnézni a következő automatikus frissítés után (2 órán belül).
+        </div>
+      `;
+      
+      input.value = '';
+    });
+  </script>
 
   <div class="card">
     <h3>📊 What You'll Get</h3>

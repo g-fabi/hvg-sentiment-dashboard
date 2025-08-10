@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-10T16:58:39Z",
+  "generated_at": "2025-08-10T18:26:32Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -1460,6 +1460,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_2",
       "sentiment_score": 0.8345022797584534
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugwn-pMHYdpUa3c2nwh4AaABAg",
+      "author": "@attilagere6186",
+      "text": "Macskás Fadísz!",
+      "published_at": "2025-08-10T17:56:41Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.43741297721862793
     }
   ]
 }

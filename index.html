@@ -18,18 +18,18 @@
   <h1>YouTube kommentek hangulata</h1>
   <p class="muted" id="generated"></p>
   <p style="margin-bottom: 1rem;">
-    <a href="request.html" style="background: #0066cc; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none;">
-      📺 Új videó hozzáadása
-    </a>
-    <a href="allowed.json" style="background: #28a745; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; margin-left: 10px;">
-      💬 Szűrt kommentek
-    </a>
+            <a href="request.html" style="background: #0066cc; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none;">
+          📺 Új videó hozzáadása
+        </a>
+        <a href="comments.html" style="background: #28a745; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; margin-left: 10px;">
+          💬 Szűrt kommentek
+        </a>
   </p>
   <table>
     <caption>Videónkénti összesítés</caption>
     <thead>
       <tr>
-        <th>Video ID</th>
+        <th>Video</th>
         <th>Összes</th>
         <th>Pozitív</th>
         <th>Semleges</th>
@@ -48,7 +48,10 @@
         tbody.innerHTML = '';
         for (const v of data.videos || []) {
           const tr = document.createElement('tr');
-          tr.innerHTML = `<td>${v.video_id}</td><td>${v.total}</td><td>${v.pos}</td><td>${v.neu}</td><td>${v.neg}</td>`;
+          const videoDisplay = v.title && v.title !== v.video_id 
+            ? `<strong>${escapeHtml(v.title)}</strong><br><small style="color: #666;">${v.video_id}</small>`
+            : v.video_id;
+          tr.innerHTML = `<td>${videoDisplay}</td><td>${v.total}</td><td>${v.pos}</td><td>${v.neu}</td><td>${v.neg}</td>`;
           tbody.appendChild(tr);
         }
       } catch (e) {
@@ -56,6 +59,13 @@
         console.error(e);
       }
     }
+    
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+    
     load();
   </script>
 </body>
