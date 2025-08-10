@@ -221,6 +221,8 @@
       .comment.reply { margin-left: 1rem; }
       .comment-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
       .sort-btn { padding: 6px 12px; font-size: 0.8rem; margin: 2px; }
+      #video-selector > div { flex-direction: column; align-items: center; }
+      #videoSelect { min-width: 250px; margin-bottom: 0.5rem; }
     }
   </style>
 </head>
@@ -239,14 +241,25 @@
       <div>🔄 Kommentek betöltése...</div>
     </div>
     
-    <div id="sort-controls" style="display: none; background: white; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; text-align: center;">
-      <label style="font-weight: 500; margin-right: 1rem;">Rendezés:</label>
-      <button id="sort-date" class="sort-btn active" onclick="setSortMode('date')">
-        📅 Dátum szerint (újabb először)
-      </button>
-      <button id="sort-likes" class="sort-btn" onclick="setSortMode('likes')">
-        👍 Lájkok szerint (több először)
-      </button>
+    <div id="video-selector" style="display: none; background: white; padding: 1rem; border-radius: 8px; margin-bottom: 1rem;">
+      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; justify-content: center;">
+        <div>
+          <label for="videoSelect" style="font-weight: 500; margin-right: 0.5rem;">📺 Videó kiválasztása:</label>
+          <select id="videoSelect" onchange="setSelectedVideo(this.value)" 
+                  style="padding: 0.5rem; border: 2px solid #dee2e6; border-radius: 6px; font-size: 0.9rem; min-width: 200px;">
+            <option value="all">🎬 Összes videó</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-weight: 500; margin-right: 0.5rem;">📋 Rendezés:</label>
+          <button id="sort-date" class="sort-btn active" onclick="setSortMode('date')">
+            📅 Dátum szerint
+          </button>
+          <button id="sort-likes" class="sort-btn" onclick="setSortMode('likes')">
+            👍 Lájkok szerint
+          </button>
+        </div>
+      </div>
     </div>
     
     <div id="content"></div>
@@ -256,6 +269,7 @@
     let currentCommentsData = null;
     let currentSummaryData = null;
     let currentSortMode = 'date';
+    let selectedVideoId = 'all';
     
     async function loadComments() {
       try {
@@ -275,7 +289,8 @@
         }
         
         await displayComments(currentCommentsData, currentSummaryData);
-        document.getElementById('sort-controls').style.display = 'block';
+        populateVideoSelector(currentCommentsData, currentSummaryData);
+        document.getElementById('video-selector').style.display = 'block';
       } catch (error) {
         document.getElementById('content').innerHTML = `
           <div class="error">
@@ -300,6 +315,50 @@
       }
     }
     
+    function setSelectedVideo(videoId) {
+      selectedVideoId = videoId;
+      
+      // Re-render with selected video
+      if (currentCommentsData) {
+        displayComments(currentCommentsData, currentSummaryData);
+      }
+    }
+    
+    function populateVideoSelector(data, summaryData) {
+      const select = document.getElementById('videoSelect');
+      
+      // Clear existing options except "all"
+      select.innerHTML = '<option value="all">🎬 Összes videó</option>';
+      
+      if (!data.allowed || data.allowed.length === 0) return;
+      
+      // Get unique video IDs
+      const videoIds = [...new Set(data.allowed.map(comment => comment.video_id))];
+      
+      // Add option for each video
+      videoIds.forEach(videoId => {
+        const option = document.createElement('option');
+        option.value = videoId;
+        
+        // Try to get video title from summary data
+        let videoTitle = videoId;
+        if (summaryData && summaryData.videos) {
+          const videoInfo = summaryData.videos.find(v => v.video_id === videoId);
+          if (videoInfo && videoInfo.title && videoInfo.title !== videoId) {
+            videoTitle = videoInfo.title;
+          }
+        }
+        
+        // Truncate long titles
+        if (videoTitle.length > 50) {
+          videoTitle = videoTitle.substring(0, 47) + '...';
+        }
+        
+        option.textContent = `📺 ${videoTitle}`;
+        select.appendChild(option);
+      });
+    }
+    
     async function displayComments(data, summaryData) {
       const content = document.getElementById('content');
       
@@ -308,9 +367,25 @@
         return;
       }
       
+      // Filter comments by selected video if not "all"
+      let filteredComments = data.allowed;
+      if (selectedVideoId !== 'all') {
+        filteredComments = data.allowed.filter(comment => comment.video_id === selectedVideoId);
+      }
+      
+      // Check if we have any comments after filtering
+      if (filteredComments.length === 0) {
+        if (selectedVideoId === 'all') {
+          content.innerHTML = '<div class="no-comments">Még nincsenek szűrt kommentek.</div>';
+        } else {
+          content.innerHTML = '<div class="no-comments">A kiválasztott videóhoz nincsenek szűrt kommentek.</div>';
+        }
+        return;
+      }
+      
       // Group comments by video
       const videoGroups = {};
-      data.allowed.forEach(comment => {
+      filteredComments.forEach(comment => {
         if (!videoGroups[comment.video_id]) {
           videoGroups[comment.video_id] = [];
         }
