@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-11T16:34:10Z",
+  "generated_at": "2025-08-11T18:38:14Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4220,6 +4220,36 @@
       "like_count": 0,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.756434440612793
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgzQKX_V1EA3y9wMEBN4AaABAg.ALbeI4mCUi8ALgojayp3Bt",
+      "author": "@tamas3596",
+      "text": "​@@EnyeszetJövőt? SZJA mentesen a mamahotelben? 😂",
+      "published_at": "2025-08-11T17:45:49Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8434249758720398
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugze_XyIlp9w466sbPt4AaABAg.ALbYe1UWETSALgosF0ZfAc",
+      "author": "@tamas3596",
+      "text": "Forradalom? Az izomsorvadásos generációd által? 😂😂😂",
+      "published_at": "2025-08-11T17:46:59Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7077754139900208
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugze_XyIlp9w466sbPt4AaABAg.ALbYe1UWETSALguS8buxyK",
+      "author": "@Enyeszet",
+      "text": "@@tamas3596Amennyiben így látja a fiatalokat, mondja el nekem miért ilyenek! Én pedig elárulok ezzel kapcsolatban egy titkot!",
+      "published_at": "2025-08-11T18:35:43Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6735748052597046
     }
   ]
 }
