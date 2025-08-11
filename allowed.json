@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-11T18:38:14Z",
+  "generated_at": "2025-08-11T20:27:38Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4250,6 +4250,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_2",
       "sentiment_score": 0.6735748052597046
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugx0hnwycDxONVfo2dt4AaABAg",
+      "author": "@EckertAndras",
+      "text": "A Sziget is egy egyszerű üzleti vállalkozás. Ha a piaci igény az, hogy Micimackó lépjen fel, akkor őt kell meghívni.",
+      "published_at": "2025-08-11T20:24:03Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.577833354473114
     }
   ]
 }
