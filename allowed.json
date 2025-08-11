@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-11T10:30:17Z",
+  "generated_at": "2025-08-11T12:53:58Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4170,6 +4170,36 @@
       "like_count": 0,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.7022376656532288
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgyvByQwwTGEs20SakR4AaABAg",
+      "author": "@hakedli",
+      "text": "na, a becuccozott Tillával majd elmegyünk egy Skrewdriver koncertre",
+      "published_at": "2025-08-11T12:41:26Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.6691383719444275
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgxtyK-noDZhHlEZ6dt4AaABAg",
+      "author": "@miklosdruskoczi7687",
+      "text": "motschkosch fidess 😊",
+      "published_at": "2025-08-11T11:04:22Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7223924398422241
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgzEj2G4lx22G9OH3XB4AaABAg",
+      "author": "@tok-tcfm",
+      "text": "Egész korrekt. Hajrá, megy ez!",
+      "published_at": "2025-08-11T10:55:17Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7997362017631531
     }
   ]
 }
