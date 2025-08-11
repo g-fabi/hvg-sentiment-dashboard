@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-11T12:53:58Z",
+  "generated_at": "2025-08-11T14:27:57Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4200,6 +4200,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.7997362017631531
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgxwhlH-RvDj8mKezsd4AaABAg",
+      "author": "@MaoriHU",
+      "text": "Tilla kólára cserélte a viszki-kólát",
+      "published_at": "2025-08-11T14:07:21Z",
+      "like_count": 1,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.4336082637310028
     }
   ]
 }
