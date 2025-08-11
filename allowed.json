@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-11T04:50:53Z",
+  "generated_at": "2025-08-11T06:41:05Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4140,6 +4140,26 @@
       "like_count": 0,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.5737219452857971
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugwzj268HPpGLWn9gt14AaABAg",
+      "author": "@Tisza721",
+      "text": "Köszönet👍👍👍👍",
+      "published_at": "2025-08-11T06:23:49Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7314839959144592
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugyzj780AQ0co5ndRv94AaABAg",
+      "author": "@wdog22",
+      "text": "A kormányunk most támogatta a kocsmákat. :) valami ellentmondást érzek :)",
+      "published_at": "2025-08-11T05:25:10Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.5655369162559509
     }
   ]
 }
