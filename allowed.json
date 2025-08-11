@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-11T14:27:57Z",
+  "generated_at": "2025-08-11T16:34:10Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4210,6 +4210,16 @@
       "like_count": 1,
       "sentiment_label": "LABEL_2",
       "sentiment_score": 0.4336082637310028
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgyEtSOpYzS4mbAM3YJ4AaABAg.ALbdo916Io4ALgbKhCnm_I",
+      "author": "@Makimacihapci",
+      "text": "⁠Kedves András úr , a válasza irreleváns , de legalább nagyon hangzatos , jól rezonál a mostani politikai hangulatra , talán önt kellet volna megkérdezni …",
+      "published_at": "2025-08-11T15:48:41Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.756434440612793
     }
   ]
 }
