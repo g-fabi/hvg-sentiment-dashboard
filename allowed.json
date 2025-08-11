@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-10T22:24:33Z",
+  "generated_at": "2025-08-11T02:05:45Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4130,6 +4130,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.5269999504089355
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugz6jIpL48vL3P_03-t4AaABAg.ALbYcM7zRElALf5QlH2J9U",
+      "author": "@lonci68",
+      "text": "@@Trollpapa-s8e Vajon melyik részét nem értettem a szövegnek?! Világosíts fel mesterem! 🤣",
+      "published_at": "2025-08-11T01:41:54Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.5737219452857971
     }
   ]
 }
