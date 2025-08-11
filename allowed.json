@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-11T06:41:05Z",
+  "generated_at": "2025-08-11T08:37:13Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4160,6 +4160,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.5655369162559509
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugy1T83HT-nOR4GCfY94AaABAg.ALbe34AYY44ALfo_lo5kwE",
+      "author": "@ilonabinder7186",
+      "text": "😂😂😂",
+      "published_at": "2025-08-11T08:25:14Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7022376656532288
     }
   ]
 }
