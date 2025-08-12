@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-12T16:32:57Z",
+  "generated_at": "2025-08-12T18:37:59Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4270,6 +4270,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.45723122358322144
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgxzAiJWKhoNvzM9UTB4AaABAg",
+      "author": "@gergotasi6440",
+      "text": "Till! Izrael párti vagy? Ki hitte volna...",
+      "published_at": "2025-08-12T18:17:17Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.757017970085144
     }
   ]
 }
