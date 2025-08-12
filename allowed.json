@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-12T20:29:05Z",
+  "generated_at": "2025-08-12T22:24:20Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4280,6 +4280,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_2",
       "sentiment_score": 0.757017970085144
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugxt2GDwOoVeshLUqYt4AaABAg",
+      "author": "@clpk08",
+      "text": "5:40 KKevin mi a faszt keres ott? XDDXD",
+      "published_at": "2025-08-12T20:44:13Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8126444816589355
     }
   ]
 }
