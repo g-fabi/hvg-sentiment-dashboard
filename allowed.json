@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-12T10:27:54Z",
+  "generated_at": "2025-08-12T12:51:12Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4260,6 +4260,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_2",
       "sentiment_score": 0.577833354473114
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgwqNIKJn9tLbJmMh0V4AaABAg",
+      "author": "@petrapinter91",
+      "text": "Tilla se sokáig lesz a tv2-néln:D",
+      "published_at": "2025-08-12T10:37:35Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.45723122358322144
     }
   ]
 }
