@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-13T04:35:44Z",
+  "generated_at": "2025-08-13T06:38:42Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4290,6 +4290,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.8126444816589355
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugwcm5N8wEQQQ2zS3rZ4AaABAg",
+      "author": "@AndrásTam",
+      "text": "Hajrá Magyar Péter",
+      "published_at": "2025-08-13T05:41:52Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.8423699736595154
     }
   ]
 }
