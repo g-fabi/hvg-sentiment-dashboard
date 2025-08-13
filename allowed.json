@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-13T06:38:42Z",
+  "generated_at": "2025-08-13T08:34:31Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4300,6 +4300,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_2",
       "sentiment_score": 0.8423699736595154
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "Ugx_t2D_IwcN6vE8zBh4AaABAg",
+      "author": "@andrearozsa",
+      "text": "Csak a Mi Hazánk❤🇭🇺",
+      "published_at": "2025-08-13T06:40:09Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.8054775595664978
     }
   ]
 }
