@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-13T22:24:47Z",
+  "generated_at": "2025-08-14T01:56:33Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4310,6 +4310,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.8054775595664978
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgwmYqYnZ93KOtBFI5R4AaABAg",
+      "author": "@MartiBognar",
+      "text": "🤗👶",
+      "published_at": "2025-08-13T23:44:10Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_3",
+      "sentiment_score": 0.7347539067268372
     }
   ]
 }
