@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-15T14:25:24Z",
+  "generated_at": "2025-08-15T16:31:25Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4320,6 +4320,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_3",
       "sentiment_score": 0.7347539067268372
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgxCUxxEnbF4HTnTqdZ4AaABAg.ALbx-Hptt69ALqs6ElgHkD",
+      "author": "@orsolyadr.petronehajdu668",
+      "text": "\"20 éve a tv2-nél van, de soha nem állt ki a fidesz mellett\" - ezt a mondatot ízlelgesd még.",
+      "published_at": "2025-08-15T15:27:39Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6616839170455933
     }
   ]
 }
