@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-15T16:31:25Z",
+  "generated_at": "2025-08-15T18:35:57Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4330,6 +4330,26 @@
       "like_count": 0,
       "sentiment_label": "LABEL_2",
       "sentiment_score": 0.6616839170455933
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgxCUxxEnbF4HTnTqdZ4AaABAg.ALbx-Hptt69ALr4uUnMoZD",
+      "author": "@rushmangm",
+      "text": "@@orsolyadr.petronehajdu668 Carlito 20 éven át könyvelt a maffiának, de soha nem állt ki a maffia mellett.",
+      "published_at": "2025-08-15T17:28:15Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7961541414260864
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgxklEhpzeTaL9eSrXV4AaABAg.ALbvXllVojAALdZ_fQMFnB",
+      "author": "@veraszabo1947",
+      "text": "A pegazustte rendelted? Füleskedni? Na ugye!",
+      "published_at": "2025-08-10T11:26:55Z",
+      "like_count": 3,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7103714942932129
     }
   ]
 }
