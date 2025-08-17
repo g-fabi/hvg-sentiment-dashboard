@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-17T06:35:10Z",
+  "generated_at": "2025-08-17T08:32:20Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4350,6 +4350,16 @@
       "like_count": 3,
       "sentiment_label": "LABEL_2",
       "sentiment_score": 0.7103714942932129
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgxCUxxEnbF4HTnTqdZ4AaABAg.ALbx-Hptt69ALvA2swealo",
+      "author": "@kkamilla-t9o",
+      "text": "@@orsolyadr.petronehajdu668ok, akkor szerinted Hajos is NER-es ( mert en arra valaszoltam), meg Balazs is, akinek a radioja szinten a fideszé, meg az osszes sportolo…. szoval szerenyebben folenyeskedjen elvtarsno.",
+      "published_at": "2025-08-17T07:30:11Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.6698015928268433
     }
   ]
 }
