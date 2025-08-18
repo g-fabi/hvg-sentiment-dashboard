@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-18T16:33:04Z",
+  "generated_at": "2025-08-18T18:37:38Z",
   "allowed": [
     {
       "video_id": "aEXR5ZrQQJM",
@@ -4360,6 +4360,16 @@
       "like_count": 0,
       "sentiment_label": "LABEL_2",
       "sentiment_score": 0.6698015928268433
+    },
+    {
+      "video_id": "aEXR5ZrQQJM",
+      "comment_id": "UgxFYTw04AKGDOj7DI94AaABAg",
+      "author": "@goodmantruth8185",
+      "text": "Te is ismersz rendoroket akik drogoznak?",
+      "published_at": "2025-08-18T18:33:26Z",
+      "like_count": 0,
+      "sentiment_label": "LABEL_2",
+      "sentiment_score": 0.7898188829421997
     }
   ]
 }
